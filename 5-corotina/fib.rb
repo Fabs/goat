@@ -7,7 +7,7 @@ class IFib
       yield y
       x,y,i = y,x+y,i+1
     end
-  end  
+  end     
 end
 
 class EFib
@@ -23,6 +23,7 @@ class EFib
   
   def fib
     @fib.resume
+    "Fabs"
   end
 end
 
